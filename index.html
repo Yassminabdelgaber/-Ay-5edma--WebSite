@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ay 5edma</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-house"></i>
+            Ay <span class="logo-text">5edma</span>
+        </a>
+
+        <!-- Mobile Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+
+            </ul>
+
+            <a href="#" class="btn sign-btn">Sign Up</a>
+
+        </div>
+
+    </div>
+</nav>
+
+    <!-- Hero -->
+   <section class="hero">
+
+    <img src="img/heroo.jpg" alt="Hero Image" class="hero-img">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <span class="hero-badge">
+            <i class="fa-solid fa-circle-check"></i>
+            Trusted Home Services
+        </span>
+
+        <h1>
+            All Your Home <br>
+            Services In <span>One Place</span>
+        </h1>
+
+        <p>
+            Book trusted professionals for cleaning,
+            plumbing, maintenance, moving and installation.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#" class="btn hero-btn">
+                Book a Service
+            </a>
+
+            <a href="#" class="btn hero-outline">
+                Explore Services
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Services -->
+
+     <!-- Services Section -->
+<section class="services py-5" id="services">
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="services-header">
+
+            <div class="section-title">
+                <h2>Our <span>Services</span></h2>
+                <p>Professional home services at your fingertips.</p>
+            </div>
+
+            <!-- Custom Arrows -->
+            <div class="swiper-buttons">
+
+                <div class="custom-prev">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+
+                <div class="custom-next">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper serviceSwiper">
+
+            <div class="swiper-wrapper">
+
+                <!-- Card 1 -->
+                <div class="swiper-slide">
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-broom"></i>
+                        </div>
+
+                        <h4>Cleaning</h4>
+
+                        <p>
+                            Professional cleaning services
+                            for homes and offices.
+                        </p>
+
+                        <a href="services.html">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="swiper-slide">
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+
+                        <h4>Maintenance</h4>
+
+                        <p>
+                            Fast maintenance and repair
+                            for your home.
+                        </p>
+
+                        <a href="maintenance.html">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="swiper-slide">
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-truck"></i>
+                        </div>
+
+                        <h4>Moving</h4>
+
+                        <p>
+                            Safe moving and furniture
+                            transportation.
+                        </p>
+
+                        <a href="moving.html">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="swiper-slide">
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+
+                        <h4>Electrical</h4>
+
+                        <p>
+                            Professional electrical
+                            installation and repairs.
+                        </p>
+
+                        <a href="electrical.html">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="swiper-slide">
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-faucet-drip"></i>
+                        </div>
+
+                        <h4>Plumbing</h4>
+
+                        <p>
+                            Plumbing installation and
+                            emergency repairs.
+                        </p>
+
+                        <a href="plumbing.html">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="swiper-slide">
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-couch"></i>
+                        </div>
+
+                        <h4>Furniture Installation</h4>
+
+                        <p>
+                            Furniture assembly and
+                            installation by experts.
+                        </p>
+
+                        <a href="furniture.html">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- Why Us -->
+
+    <section class="why-us py-5">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- Images -->
+            <div class="col-lg-6">
+
+                <div class="why-images">
+
+                    <!-- Main Image -->
+                    <img src="img/Why Us0.jpg"
+                         class="main-img"
+                         alt="Technician">
+
+                    <!-- Small Image -->
+                    <img src="img/Why Us1.jpg"
+                         class="small-img"
+                         alt="Customer">
+
+                    <!-- Rating -->
+                    <div class="rating-card">
+
+    <h3><span class="counter" data-target="4.9">0</span>⭐</h3>
+
+    <p>Customer Rating</p>
+
+</div>
+
+<div class="clients-card">
+
+    <h3>+<span class="counter" data-target="500">0</span></h3>
+
+    <p>Happy Clients</p>
+
+</div>
+                    <!-- Verified -->
+                    <div class="verified-card">
+
+                        <i class="fa-solid fa-circle-check"></i>
+
+                        Verified Professionals
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Content -->
+
+            <div class="col-lg-6">
+
+                <span class="section-tag">
+                    Why Choose Us
+                </span>
+
+                <h2>
+                    We Make Home Services
+                    Easier Than Ever
+                </h2>
+
+                <p>
+
+                    Our trusted platform connects
+                    customers with experienced
+                    professionals for every home service.
+
+                </p>
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Verified Professionals
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Affordable Prices
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    Fast Response
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    24/7 Customer Support
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- testimonial -->
+
+<section class="testimonials py-5">
+
+    <div class="container">
+
+        <div class="section-title text-center">
+
+            <h2>What Our <span>Clients Say</span></h2>
+
+            <p>
+                Trusted by hundreds of satisfied customers.
+            </p>
+
+        </div>
+
+        <div class="swiper testimonialSwiper">
+
+            <div class="swiper-wrapper">
+
+                <!-- Card 1 -->
+                <div class="swiper-slide">
+
+                    <div class="testimonial-card">
+
+                        <div class="stars">
+
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+
+                        <p>
+
+                            Excellent service! The technician
+                            arrived on time and solved
+                            everything professionally.
+
+                        </p>
+
+                        <div class="client">
+
+                            <img src="img/WhatsApp Image 2026-07-19 at 11.53.43 PM.jpeg">
+
+                            <div>
+
+                                <h5>YassminAhmed</h5>
+
+                                <span>Sohag, Egypt</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="testimonial-card">
+
+                        <div class="stars">
+
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+
+                        <p>
+
+                            Excellent service! The technician
+                            arrived on time and solved
+                            everything professionally.
+
+                        </p>
+
+                        <div class="client">
+
+                            <img src="img/img2.jpg ">
+
+                            <div>
+
+                                <h5>naDA</h5>
+
+                                <span>Sohag, Egypt</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="testimonial-card">
+
+                        <div class="stars">
+
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+
+                        <p>
+
+                            Excellent service! The technician
+                            arrived on time and solved
+                            everything professionally.
+
+                        </p>
+
+                        <div class="client">
+
+                            <img src="img/img3.jpg">
+
+                            <div>
+
+                                <h5>Mohamed(MOdy)</h5>
+
+                                <span>Sohag, Egypt</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- كرريها 3 مرات -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Footer -->
+  
+    <footer class="footer">
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <!-- Logo -->
+            <div class="col-lg-4">
+
+                <h3>
+                    Ay <span>5edma</span>
+                </h3>
+
+                <p>
+
+                    Your trusted platform for
+                    professional home services.
+
+                </p>
+
+                <div class="footer-contact">
+
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Sohag, Egypt
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        +20 1557461609
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        support@ay5edma.com
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Links -->
+
+            <div class="col-lg-2">
+
+                <h5>Quick Links</h5>
+
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">Services</a></li>
+
+                    <li><a href="#">Testimonials</a></li>
+
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Services -->
+
+            <div class="col-lg-3">
+
+                <h5>Services</h5>
+
+                <ul>
+
+                    <li>Cleaning</li>
+
+                    <li>Maintenance</li>
+
+                    <li>Moving</li>
+
+                    <li>Electrical</li>
+
+                    <li>Plumbing</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Social -->
+
+            <div class="col-lg-3">
+
+                <h5>Follow Us</h5>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="copyright">
+
+            © 2026 Ay 5edma. All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
