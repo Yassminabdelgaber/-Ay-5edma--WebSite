@@ -7,7 +7,7 @@ A multi-page website for browsing and booking home services (cleaning, electrica
 ## 🚀 Live Demo
 
 > _Add your deployed Vercel link here after deployment, e.g._
-> **https://ay-5edma.vercel.app**
+> **https://vercel.com/yassmin2/ay-5edma-web-site/Hzn6EnsGH8uDrjqrnxAcF7yxNXqE**
 
 ## 📦 Repository
 
@@ -17,7 +17,7 @@ A multi-page website for browsing and booking home services (cleaning, electrica
 ## 🎥 Preview
 
 > _Add a link to your 1–3 minute preview video here (YouTube/Drive/Loom), or attach screenshots in a `/preview` folder and reference them below._
-
+<video controls src="Screen Recording 2026-07-25 053731.mp4" title="Title"></video>
 ---
 
 ## 🧰 Tech Stack
